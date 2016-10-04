@@ -32,7 +32,7 @@ public class CategoryPakaianView extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
+            out.println("<!DOCTYPE html5>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet CategoryPakaianView</title>");            
