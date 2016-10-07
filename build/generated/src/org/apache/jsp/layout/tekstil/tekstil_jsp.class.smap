@@ -1,0 +1,18 @@
+SMAP
+tekstil_jsp.java
+JSP
+*S JSP
+*F
++ 0 tekstil.jsp
+layout/tekstil/tekstil.jsp
+*L
+5,31:47
+36:78,3
+37,4:81
+41,4:86
+44:90,3
+45,2:94
+46:96,3
+47,2:100
+48,14:102
+*E

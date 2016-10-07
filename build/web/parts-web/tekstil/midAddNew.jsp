@@ -14,20 +14,21 @@
     </head>
     <body>
          <div class="jumbotron" style="padding: 10px;">
-            <form class="form-horizontal" enctype="multipart/form-data">
+             <form class="form-horizontal" enctype="multipart/form-data" method="post" action="PakaianControl">
                 <fieldset>
                     <legend><center>Entry</center></legend>
                     <div class="form-group">
+                        <input type="hidden" value="insert" name="crud"/>
                         <label class="col-lg-2 control-label"><div style="float:left">Kode Barang</div></label>
-                        <div class="col-lg-3">
-                            <input type="text" name="kdBrg" class="form-control" oninput="validAngka(this)" maxlength="6"/>
+                        <div class="col-lg-2">
+                            <input type="text" name="kdBrg" class="form-control"  maxlength="9"/>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-lg-2 control-label"><div style="float:left">Kategori</div></label>
                     
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <select name="kategori" class="form-control">
                                 <c:forEach items="${getKategori}" var="p">
                                     <option value="${p.idKategori}">${p.nama}</option>
@@ -46,17 +47,17 @@
 
                     <div class="form-group">
                         <label class="col-lg-2 control-label"><div style="float:left">Stok</div></label>
-                        <div class="col-lg-2">
-                            <input type="text" name="stokSet" class="form-control" oninput="validAngka(this)" maxlength="3"/>
+                        <div class="col-lg-1">
+                            <input type="text" name="stokSet" class="form-control" oninput="validAngka(this)" maxlength="1"/>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <select name="satuanStok" class="form-control">
                                 <option value="kodi">Kodi</option>
                                 <option value="Lusin">Lusin</option>
                             </select>
                         </div>
-                        <div class="col-lg-2">
-                            <input type="text" name="stokLbr" class="form-control"/>
+                        <div class="col-lg-1">
+                            <input type="text" name="stokLbr" class="form-control" maxlength="2" oninput="validAngka(this)"/>
                         </div>
                         <label class="col-lg-2 control-label"><div style="float:left">LBR</div></label>
                     </div>
@@ -78,7 +79,7 @@
                     <div class="form-group">
                         <label class="col-lg-2 control-label"><div style="float:left">Photo</div></label>
                         <div class="col-lg-2">
-                            <img src="../../../xx.jpg" name="imgPhoto"  width="100" height="100">
+                            <img src="../../images/dd.jpg" name="imgPhoto"  width="100" height="100">
                         </div>
                         <div class="col-lg-6">
                             <input type="file" name="photo" />

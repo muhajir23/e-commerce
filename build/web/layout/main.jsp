@@ -13,7 +13,7 @@
     </head>
     <body>
         <% 
-            RequestDispatcher rd = request.getRequestDispatcher("tekstil/tekstil.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("/menupakaian");
             rd.forward(request, response);
         %>
     </body>

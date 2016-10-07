@@ -3,11 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/webbuilding/Banggai/web/parts-web/tekstil/midUpdate.jsp</file>
             <file>file:/D:/webbuilding/Banggai/web/WEB-INF/web.xml</file>
             <file>file:/D:/webbuilding/Banggai/web/layout/main.jsp</file>
-            <file>file:/D:/webbuilding/Banggai/src/java/com/muhajir/view/CategoryPakaianView.java</file>
+            <file>file:/D:/webbuilding/Banggai/src/java/com/muhajir/controller/CategoryPakaianView.java</file>
             <file>file:/D:/webbuilding/Banggai/web/layout/tekstil/tekstil.jsp</file>
             <file>file:/D:/webbuilding/Banggai/web/parts-web/tekstil/midAddNew.jsp</file>
+            <file>file:/D:/webbuilding/Banggai/src/java/dao/CategoryPakaianDao.java</file>
+            <file>file:/D:/webbuilding/Banggai/web/parts-web/tekstil/leftMenu.jsp</file>
+            <file>file:/D:/webbuilding/Banggai/web/parts-web/umum/navbar.html</file>
+            <file>file:/D:/webbuilding/Banggai/src/java/interfaces/PakaianInterface.java</file>
+            <file>file:/D:/webbuilding/Banggai/src/java/dao/PakaianDao.java</file>
+            <file>file:/D:/webbuilding/Banggai/web/parts-web/tekstil/midMain.jsp</file>
+            <file>file:/D:/webbuilding/Banggai/src/java/com/muhajir/controller/PakaianControl.java</file>
         </group>
     </open-files>
 </project-private>
